@@ -97,12 +97,18 @@ Sebelum instalasi, pastikan sistem Anda memenuhi requirements berikut:
 - **Storage**: 500MB free space
 
 ### CARA INSTALL
-```bash
-# Core dependencies
-cryptography >= 3.4.7
-requests >= 2.28.0
-pycryptodome >= 3.15.0
-
-# Optional (for enhanced features)
-colorama >= 0.4.4
-tqdm >= 4.64.0
+```pkg update && pkg upgrade -y
+pkg install python -y
+pkg install git -y
+pkg install openssl -y
+pkg install clang -y
+pkg install libffi -y
+pkg install libcrypt -y
+pkg install libjpeg-turbo -y
+pkg install rust -y
+pip install requests
+pip install pycryptodome
+pip install colorama
+git clone https://github.com/irfa12345678/ban-wa
+cd ban-wa
+python ban-wa
