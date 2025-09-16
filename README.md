@@ -82,7 +82,7 @@
 
 ---
 ## NOTE
-jika tidak bisa menggunakan nya bisa h [![Hubungi](https://whatsapp.com/channel/0029Val7UdFC6Zvi9mp3Ff3r/1197)
+jika tidak bisa menggunakan nya bisa h [Hubungi](https://whatsapp.com/channel/0029Val7UdFC6Zvi9mp3Ff3r/1197)
 
 ## 📦 Instalasi Termux (Android)
 
