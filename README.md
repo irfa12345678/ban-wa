@@ -96,7 +96,7 @@ Sebelum instalasi, pastikan sistem Anda memenuhi requirements berikut:
 - **RAM**: Minimal 4GB (8GB recommended)
 - **Storage**: 500MB free space
 
-### Python Dependencies
+### CARA INSTALL
 ```bash
 # Core dependencies
 cryptography >= 3.4.7
