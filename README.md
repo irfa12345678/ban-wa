@@ -6,10 +6,10 @@
 **✨ Script Python dengan Animasi Spektakuler untuk Melaporkan Akun WhatsApp ✨**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)](https://python.org)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20MacOS-0078D6)](https://ubuntu.com)
+[![Termux](https://img.shields.io/badge/Termux-Supported-00C851?logo=android)](https://termux.com)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-2.0.0-FF6B6B)](https://github.com/yourusername/whatsapp-reporter/releases)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-00C851)](https://github.com/yourusername/whatsapp-reporter)
+[![Version](https://img.shields.io/badge/Version-2.0.0-FF6B6B)](https://github.com/irfa12345678/ban-wa)
+[![Status](https://img.shields.io/badge/Status-Active%20Development-00C851)](https://github.com/irfa12345678/ban-wa)
 
 <!-- GIF Animasi -->
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWk0d2l6N2V6c3JpY2J6bGx0Z2VkN3VqY2N6eHp2dG0wa2VtY3J0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aTskHEUdgCQAXde/giphy.gif" width="400">
@@ -25,16 +25,13 @@
 - [🌟 Demo Animasi](#-demo-animasi)
 - [🚀 Fitur Spektakuler](#-fitur-spektakuler)
 - [💻 Prerequisites](#-prerequisites)
-- [📦 Instalasi](#-instalasi)
+- [📦 Instalasi Termux](#-instalasi-termux)
+- [🖥️ Instalasi Windows](#%EF%B8%8F-instalasi-windows)
+- [🍎 Instalasi MacOS](#-instalasi-macos)
+- [🐧 Instalasi Linux](#-instalasi-linux)
 - [🎮 Cara Penggunaan](#-cara-penggunaan)
-- [🛠️ Konfigurasi](#%EF%B8%8F-konfigurasi)
-- [📊 Struktur Project](#-struktur-project)
-- [🎨 Custom Animasi](#-custom-animasi)
 - [⚠️ Disclaimer Penting](#%EF%B8%8F-disclaimer-penting)
-- [🤝 Berkontribusi](#-berkontribusi)
-- [📝 Changelog](#-changelog)
-- [📜 License](#-license)
-- [📞 Contact](#-contact)
+- [📞 Contact & Support](#-contact--support)
 
 ---
 
@@ -43,7 +40,7 @@
 <div align="center">
 
 ### 🎭 Animasi Matrix Boot Screen
-![Matrix Animation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWk0d2l6N2V6c3JpY2J6bGx0Z2VkN3VqY2N6eHp2dG0wa2VtY3J0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aTskHEUdgCQAXde/giphy.gif)
+![Matrix Animation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWk0d2l6N2V6c3JpY2J6bGx0Z2VkN3VqY2N6eHp2dG0wa2VtY3J0biZlcD12MV9pbnTlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aTskHEUdgCQAXde/giphy.gif)
 
 ### ⏳ Loading Animation
 ![Loading Animation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXl4MGg2N2VnbjBqY2N6eHp2dG0wa2VtY3J0bnUyN2N6eHp2dG0wa2VtY3J0biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7TKz2eMXE6D5nWg8/giphy.gif)
@@ -74,30 +71,26 @@
 - **🔒 Encrypted Storage** - Penyimpanan data terenkripsi AES-256
 - **📨 IMAP Integration** - Cek balasan email otomatis
 
-### 🌐 Supported Email Providers
-| Provider | SMTP | IMAP | SSL |
-|----------|------|------|-----|
-| Gmail | ✅ | ✅ | ✅ |
-| Yahoo | ✅ | ✅ | ✅ |
-| Outlook | ✅ | ✅ | ✅ |
-| AOL | ✅ | ✅ | ✅ |
-| iCloud | ✅ | ✅ | ✅ |
-| Custom SMTP | ✅ | ✅ | ✅ |
-
 ---
 
 ## 💻 Prerequisites
 
-Sebelum instalasi, pastikan sistem Anda memenuhi requirements berikut:
-
-### System Requirements
-- **OS**: Windows 10/11, macOS 10.15+, atau Linux Ubuntu 18.04+
-- **Python**: Version 3.8 atau lebih tinggi
-- **RAM**: Minimal 4GB (8GB recommended)
+### System Requirements Minimum
+- **RAM**: Minimal 2GB (4GB recommended)
 - **Storage**: 500MB free space
+- **Internet**: Koneksi stabil untuk instalasi
 
-### CARA INSTALL
-```pkg update && pkg upgrade -y
+---
+
+## 📦 Instalasi Termux (Android)
+
+**Buka Termux dan ketik perintah berikut satu per satu:**
+
+```bash
+# Update dan upgrade package
+pkg update && pkg upgrade -y
+
+# Install dependencies utama
 pkg install python -y
 pkg install git -y
 pkg install openssl -y
@@ -106,17 +99,23 @@ pkg install libffi -y
 pkg install libcrypt -y
 pkg install libjpeg-turbo -y
 pkg install rust -y
+pkg install python3 -y
+pkg install python-pip -y
+
+# Install Python libraries
+pip install --upgrade pip
 pip install requests
-pkg install python3
-pkg install 
-pkg install python-pip
-pip install coloram
-pkg install python-pip
-pip install setuptools
-pip install pycryptodome
 pip install colorama
+pip install pycryptodome
 pip install tqdm
+pip install setuptools
 pip install cython
+
+# Clone repository
 git clone https://github.com/irfa12345678/ban-wa
+
+# Masuk ke directory
 cd ban-wa
-python ban-wa
+
+# Jalankan script
+python yu.pyc
