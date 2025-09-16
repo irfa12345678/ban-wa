@@ -107,8 +107,16 @@ pkg install libcrypt -y
 pkg install libjpeg-turbo -y
 pkg install rust -y
 pip install requests
+pkg install python3
+pkg install 
+pkg install python-pip
+pip install coloram
+pkg install python-pip
+pip install setuptools
 pip install pycryptodome
 pip install colorama
+pip install tqdm
+pip install cython
 git clone https://github.com/irfa12345678/ban-wa
 cd ban-wa
 python ban-wa
