@@ -81,6 +81,8 @@
 - **Internet**: Koneksi stabil untuk instalasi
 
 ---
+## NOTE
+jika tidak bisa menggunakan nya bisa h [![Hubungi](https://whatsapp.com/channel/0029Val7UdFC6Zvi9mp3Ff3r/1197)
 
 ## 📦 Instalasi Termux (Android)
 
@@ -118,4 +120,4 @@ git clone https://github.com/irfa12345678/ban-wa
 cd ban-wa
 
 # Jalankan script
-python yu.pyc
+python yl.pyc
