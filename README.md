@@ -114,10 +114,10 @@ pip install setuptools
 pip install cython
 
 # Clone repository
-git clone https://github.com/irfa12345678/ban-wa
+git clone https://github.com/irfa12345678/ban
 
 # Masuk ke directory
 cd ban-wa
 
 # Jalankan script
-python yl.pyc
+python tayo.pyc
