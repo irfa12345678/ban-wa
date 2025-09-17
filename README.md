@@ -113,8 +113,9 @@ pip install tqdm
 pip install setuptools
 pip install cython
 
+
 # Clone repository
-git clone https://github.com/irfa12345678/ban
+git clone https://github.com/irfa12345678/ban-wa
 
 # Masuk ke directory
 cd ban-wa
